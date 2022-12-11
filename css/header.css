@@ -1,0 +1,77 @@
+header {
+  height: 70px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 53px;
+}
+
+.logo {
+  display: none;
+  width: 33px;
+  height: 33px;
+}
+
+.logo-full {
+  width: 204px;
+  height: 40px;
+}
+
+.online {
+  display: flex;
+  align-items: center;
+}
+
+.online>p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3C3C3C;
+}
+
+
+.online-point {
+  margin-left: 39px;
+  margin-right: 15px;
+}
+
+.wallet {
+  width: 100px;
+}
+
+.wallet>a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #52719F;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+
+}
+
+.coin>p {
+  margin-left: 6px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3C3C3C;
+}
+@media screen and (max-width:600px) {
+  .logo{
+    display: block;
+  }
+  .logo-full{
+    display: none;
+  }
+  header{
+    padding: 11px 15px;
+
+  }
+}
