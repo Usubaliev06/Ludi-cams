@@ -63,7 +63,7 @@ header {
   line-height: 28px;
   color: #3C3C3C;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:787px) {
   .logo{
     display: block;
   }
@@ -72,6 +72,5 @@ header {
   }
   header{
     padding: 11px 15px;
-
   }
 }

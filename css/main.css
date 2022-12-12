@@ -1,0 +1,170 @@
+main {
+  background-color: #e7e6e6;
+  padding: 38px 60px;
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #3C3C3C;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 19px;
+}
+
+.card {
+  width: calc(100%/4 - 35px/4*3);
+  height: 393px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+.card:nth-child(4n) {
+  margin-right: 0;
+}
+
+.card:nth-last-child(-n+4) {
+  margin-bottom: 0px;
+}
+
+.preview {
+  background-image: url(../img/Rectangle\ 2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+.status {
+  width: 73px;
+  height: 20px;
+  background: #DFAD63;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.status>p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.profile {
+  height: 222px;
+  background: #FFFFFF;
+  display: flex;
+  padding: 17px 15px;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.information {
+  margin-left: 15px;
+}
+
+.information>h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 6px;
+  color: #3C3C3C;
+
+}
+
+.information>button {
+  width: 200px;
+  height: 32px;
+  background: #DFAD63;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #3C3C3C;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 33px;
+  color: #3C3C3C;
+}
+
+@media screen and (max-width:1370px) {
+  .card {
+    width: calc(100%/2 - 16px/2*1);
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .card:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+  }
+
+  .card:nth-child(4n) {
+
+    margin-bottom: 16px;
+
+  }
+
+  .card:nth-last-child(-n+4) {
+    margin-bottom: 16px;
+
+  }
+
+
+
+}
+
+@media screen and (max-width:787px) {
+
+  .card {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+
+  .card:last-child {
+    margin-bottom: 0px;
+  }
+
+  .card:nth-child(n) {
+    margin-bottom: 16px;
+
+  }
+
+  .card:nth-last-child(-n+2) {
+    margin-right: 0px;
+
+  }
+}
