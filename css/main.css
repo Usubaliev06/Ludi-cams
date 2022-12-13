@@ -34,7 +34,7 @@ main {
   margin-bottom: 0px;
 }
 
-.preview {
+.preview1 {
   background-image: url(../img/Rectangle\ 2.png);
   background-position: center;
   background-size: cover;
@@ -44,7 +44,58 @@ main {
   padding: 13px 17px;
 }
 
-.status {
+.preview2 {
+  background-image: url(../img/Rectangle\ 7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+.preview3 {
+  background-image: url(../img/Rectangle\ 3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+.preview4 {
+  background-image: url(../img/Rectangle\ 4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+.preview5 {
+  background-image: url(../img/Rectangle\ 6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+.preview7 {
+  background-image: url(../img/Rectangle\ 6\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: 100%;
+  padding: 13px 17px;
+}
+
+
+.status-yellow {
   width: 73px;
   height: 20px;
   background: #DFAD63;
@@ -52,7 +103,32 @@ main {
   padding: 3px;
 }
 
-.status>p {
+.status-green {
+  width: 73px;
+  height: 20px;
+  background: #8BB47D;
+
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.status-blue {
+  width: 80px;
+  height: 20px;
+  background: #5982C0;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.status-gray {
+  width: 73px;
+  height: 20px;
+  background: #A0A0A0;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.lesson {
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
@@ -86,7 +162,7 @@ main {
 
 }
 
-.information>button {
+.yellow-button {
   width: 200px;
   height: 32px;
   background: #DFAD63;
@@ -98,6 +174,86 @@ main {
   text-transform: uppercase;
   color: #FFFFFF;
   border: 0px;
+}
+
+.yellow-button:hover {
+  background: #F6B758;
+
+}
+
+.yellow-button:focus {
+  border: 2px solid #F6B758;
+}
+
+.green-button {
+  width: 200px;
+  height: 32px;
+  background: #8BB47D;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px;
+
+}
+
+.green-button:hover {
+  background: #82DC64;
+}
+
+.green-button:focus {
+  border: 2px solid #82DC64;
+}
+
+.gray-button {
+  width: 200px;
+  height: 32px;
+  background: #A0A0A0;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px;
+
+}
+
+.gray-button:hover {
+  background: #C1C1C1;
+
+}
+
+.gray-button:focus {
+  border: 2px solid #C1C1C1
+}
+
+.blue-button {
+  width: 200px;
+  height: 32px;
+  background: #5982C0;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px;
+
+}
+
+.blue-button:hover {
+  background: #679CEB;
+
+}
+
+.blue-button:focus {
+  border: 2px solid #679CEB;
 }
 
 .name {
@@ -114,6 +270,22 @@ main {
   line-height: 16px;
   margin-bottom: 33px;
   color: #3C3C3C;
+}
+
+.download {
+
+  margin: 54px auto;
+  display: block;
+  border: 0px;
+  width: 385px;
+  height: 84px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #5982C0;
+  border-radius: 5px;
 }
 
 @media screen and (max-width:1370px) {
@@ -167,4 +339,5 @@ main {
     margin-right: 0px;
 
   }
+
 }

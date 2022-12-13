@@ -49,6 +49,16 @@ header {
   text-decoration-line: underline;
   color: #52719F;
 }
+.wallet>a:hover{
+  text-decoration-line: underline;
+  color: #3C3C3C;
+
+}
+.wallet>a:active{
+  text-decoration-line: underline;
+  color: #8BB47D;
+
+}
 
 .coin {
   display: flex;
