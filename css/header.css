@@ -10,19 +10,33 @@ header {
 }
 
 .logo {
-  display: none;
-  width: 33px;
-  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
 }
 
-.logo-full {
-  width: 204px;
-  height: 40px;
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.logo-text {
+  width: 155px;
+  height: 35px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  color: #3C3C3C;
+
 }
 
 .online {
   display: flex;
   align-items: center;
+
 }
 
 .online>p {
@@ -39,7 +53,7 @@ header {
 }
 
 .wallet {
-  width: 100px;
+  width: 110px;
 }
 
 .wallet>a {
@@ -49,12 +63,14 @@ header {
   text-decoration-line: underline;
   color: #52719F;
 }
-.wallet>a:hover{
+
+.wallet>a:hover {
   text-decoration-line: underline;
   color: #3C3C3C;
 
 }
-.wallet>a:active{
+
+.wallet>a:active {
   text-decoration-line: underline;
   color: #8BB47D;
 
@@ -73,14 +89,32 @@ header {
   line-height: 28px;
   color: #3C3C3C;
 }
+
 @media screen and (max-width:787px) {
-  .logo{
+  .logo {
     display: block;
   }
-  .logo-full{
+  .header-logo {
+    width: fit-content;
+  }
+
+  .logo-text {
     display: none;
   }
-  header{
+
+  header {
     padding: 11px 15px;
+  }
+
+  .online>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+  }
+
+
+  .online-point {
+    margin-left: 28px;
   }
 }

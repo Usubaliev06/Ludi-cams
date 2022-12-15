@@ -277,7 +277,7 @@ main {
   margin: 54px auto;
   display: block;
   border: 0px;
-  width: 385px;
+  width: 33%;
   height: 84px;
   font-weight: 700;
   font-size: 20px;
@@ -289,6 +289,10 @@ main {
 }
 
 @media screen and (max-width:1370px) {
+  main {
+    padding: 38px 16px;
+  }
+
   .card {
     width: calc(100%/2 - 16px/2*1);
     margin-right: 16px;
@@ -314,11 +318,15 @@ main {
 
   }
 
-
+  
 
 }
 
 @media screen and (max-width:787px) {
+  main {
+    padding: 38px 16px;
+
+  }
 
   .card {
     width: 100%;
@@ -338,6 +346,9 @@ main {
   .card:nth-last-child(-n+2) {
     margin-right: 0px;
 
+  }
+  .download {
+    width: 60%;
   }
 
 }
